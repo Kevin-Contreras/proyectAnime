@@ -1,0 +1,58 @@
+
+*{
+  margin: 0;
+}
+.nav{
+
+  background: rgb(59, 59, 59);
+  height: 100vh
+}
+h1{
+  font-family: 'Rubik Iso', cursive;
+  text-align: center;
+}
+.nav2{
+  
+  background: red;
+}
+.tt{
+  text-align: left;
+}
+.apps{
+  display: grid;
+  
+  grid-template-columns: 30% 68%;
+  gap: 2%;
+
+ 
+}
+.titulo{
+  font-size: 5vw;
+}
+ul{
+  list-style: none
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  
+}
+ul li{
+  text-align: right;
+  margin-right: 20%;
+  margin-top: 3%;
+
+}
+.search{
+  width: 60%;
+  height: 40px;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  
+}
+.uno{
+  overflow: auto;
+  height: 100vh;
+  text-align: center;
+}
