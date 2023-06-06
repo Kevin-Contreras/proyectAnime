@@ -1,0 +1,120 @@
+
+*{
+  margin: 0;
+}
+.nav{
+
+  background: rgb(59, 59, 59);
+  height: 100vh
+}
+h1{
+  font-family: 'Rubik Iso', cursive;
+  text-align: center;
+}
+.nav2{
+  
+  background: rgb(143, 50, 50);
+}
+.tt{
+  text-align: left;
+}
+.apps{
+  display: grid;
+  
+  grid-template-columns: 30% 68%;
+  gap: 2%;
+
+ 
+}
+.titulo{
+  font-size: 5vw;
+}
+ul{
+  list-style: none
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  
+}
+ul li{
+  text-align: right;
+  margin-right: 20%;
+  margin-top: 3%;
+
+}
+.search{
+  width: 50%;
+  display: block;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 2%;
+  
+}
+.boton{
+  display: block;
+  margin: auto;
+}
+.uno{
+  overflow: auto;
+  height: 100vh;
+  text-align: center;
+}
+
+.mobile-container {
+  max-width: 100%;
+  margin: auto;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.topnav a:hover {
+  color: rgb(176, 140, 140);
+}
+
+.active {
+  background-color: #454545;
+  color: white;
+}
+.primero{
+  display: block;
+}
+.segundo{
+  display:none;
+}
+@media (max-width: 768px) {
+  .primero {
+    display: none;
+  }
+  .segundo{
+    display: block;
+  }
+
+}
