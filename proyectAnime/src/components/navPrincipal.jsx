@@ -14,7 +14,6 @@ function NavPrincipal() {
      <NavMovil/>
      </div>
       
-      <Outlet  className='nav2'/>
 
      
     </div>

@@ -32,7 +32,7 @@ function myFunction(){
   </a>
 </div>
 
-
+<Outlet  className='nav2'/>
 
 
 
